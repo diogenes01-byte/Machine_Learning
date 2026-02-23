@@ -1,0 +1,23 @@
+artifact_path: file:///C:/Users/lugod/Downloads/AirbnbML/mlruns/1/models/m-a5416b102c934910956f9b8e054fbafe/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.11.14
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+mlflow_version: 3.10.0
+model_id: m-a5416b102c934910956f9b8e054fbafe
+model_size_bytes: 417330
+model_uuid: m-a5416b102c934910956f9b8e054fbafe
+prompts: null
+run_id: 45c251208f1f4444b1125638a9cceca9
+utc_time_created: '2026-02-23 19:18:35.567550'
